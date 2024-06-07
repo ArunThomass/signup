@@ -6,7 +6,7 @@ import emailicon from "../assets/email.png";
 import validation from "../validation";
 
 const LoginSignup = () => {
-  const [action, setAction] = useState("Login");
+  const [action, setAction] = useState("Sign up");
   const [values, setValues] = useState({
     name: "",
     email: "",
